@@ -1,1 +1,30 @@
+package gradecalculator;
+
+import java.util.Scanner;
+
+public class GradeCalculator {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Please input the scores:"); //Ask user to input scores
+        
+        int Homework = sc.nextInt(); //Ask the score for Homework
+        int Codelab = sc.nextInt(); //Ask the score for Codelab
+        int Midterm1 = sc.nextInt(); //Ask the score for Midterm 1
+        int Midterm2 = sc.nextInt(); //Ask the score for Midterm 2
+        int Final = sc.nextInt(); //Ask the score for Final
+        
+        System.out.println("The total score is: " + (Homework + Codelab + Midterm1
+                + Midterm2 + Final));
+    }
+}
+Output:
+Please input the scores:
+100
+95
+99
+80
+95
+The total score is: 469
 
