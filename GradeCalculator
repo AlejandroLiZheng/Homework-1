@@ -9,11 +9,11 @@ public class GradeCalculator {
 
         System.out.println("Please input the scores:"); //Ask user to input scores
         
-        int Homework = sc.nextInt(); //Ask the score for Homework
-        int Codelab = sc.nextInt(); //Ask the score for Codelab
-        int Midterm1 = sc.nextInt(); //Ask the score for Midterm 1
-        int Midterm2 = sc.nextInt(); //Ask the score for Midterm 2
-        int Final = sc.nextInt(); //Ask the score for Final
+        int Homework = sc.nextInt(); //Ask the user for Homework
+        int Codelab = sc.nextInt(); //Ask the user for Codelab
+        int Midterm1 = sc.nextInt(); //Ask the user for Midterm 1
+        int Midterm2 = sc.nextInt(); //Ask the user for Midterm 2
+        int Final = sc.nextInt(); //Ask the user for Final
         
         System.out.println("The total score is: " + (Homework + Codelab + Midterm1
                 + Midterm2 + Final));
