@@ -1,3 +1,4 @@
+package rectanglestat;
 
 import java.util.Scanner;
 
@@ -6,13 +7,24 @@ public class RectangleStat {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
+  
         System.out.println("Please input the width");
-        int width = sc.nextInt();
+        int width = sc.nextInt(); //Ask user to input the width
         System.out.println("Please input the length");
-        int length = sc.nextInt();
-        System.out.println("When one side is " + width + "and the other side is "
-                + length + " the area is " +    + " and the perimeter is " +   );
+        int length = sc.nextInt(); //Ask user to input the legnth
+
+        int perimeter = 2 * (length + width); //Perimeter
+        int area = length * width; //Area
+
+        System.out.println("When one side is " + width + " and the other side is "
+                + length + " the area is " + area
+                + " and the perimeter is " + perimeter);
     }
 
 }
+Output: 
+Please input the width
+35
+Please input the length
+20
+When one side is 35 and the other side is 20 the area is 700 and the perimeter is 110
